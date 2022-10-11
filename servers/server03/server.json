@@ -1,0 +1,7 @@
+{
+    "server":true,
+    "bind_addr":"172.17.0.3",
+    "bootstrap_expect":3,
+    "data_dir":"/var/lib/consul",
+    "retry_join":["172.17.0.2", "172.17.0.4"]
+}
